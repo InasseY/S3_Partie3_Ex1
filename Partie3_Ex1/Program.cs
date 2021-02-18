@@ -7,11 +7,10 @@ namespace Partie3_Ex1
         static void Main(string[] args)
         {
            
-            int n = 0;
-            while (n < 10)
+           for (int increment = 0; increment <10; increment++)
             {
                 Console.WriteLine("Bonjour, je ne suis qu'un simple message." );
-                n++;
+               
 
             }
         }
